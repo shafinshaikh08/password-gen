@@ -1,12 +1,39 @@
-# React + Vite
+# 🔐 Password Generator Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful, clean, and responsive password generator built with React, Tailwind CSS, and local storage support. Generates secure passwords, evaluates their strength, and allows history tracking and download — all with sleek UI/UX ready for production or portfolio.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Custom Password Generation**  
+  Choose length (6-50), uppercase, lowercase, numbers, symbols.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Strength Meter**  
+  Real-time password strength indicator based on complexity.
+
+- **Copy to Clipboard**  
+  One-click copy for generated passwords and history entries.
+
+- **Password History (Persistent)**  
+  Last 5 generated passwords saved in browser (localStorage). Option to delete individual entries.
+
+- **Download History**  
+  Download your password history as a `.txt` file.
+
+- **Responsive UI**  
+  Fully responsive layout with clean alignment and design. Built using **Tailwind CSS**.
+
+- **Dark/Light Mode Toggle**  
+  Toggle between light/dark modes with persistent theme memory.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React (Vite)**
+- **Tailwind CSS**
+- **lucide-react** (for icons)
+- **Local Storage** (for history/theme persistence)
+
+---
